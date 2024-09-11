@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .header{
+            display: flex;
+            flex-direction: row;
+            margin-top: 5%;
+            justify-content: space-evenly;
+            
+           
+        }
+       
+        .b{
+           font-size: large;
+           
+
+          
+        }
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        .bg-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 30%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .btn{
+            
+            color: black;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+        }
+        .btn:hover{
+            color: #f0f0f0;
+        }
+        
+        .f{
+            width: 25%;
+            height: 100vh;
+      background-color: #f0f0f0;
+      border: 1px solid #cccccc;
+      display: block;
+      overflow: hidden;
+      position: relative;
+      
+        }
+        
+    </style>
+</head>
+<body>
+    <heade>
+        <nav class="header">
+            <div class="a">
+        <h1 style="color: white;">MyBrand</h1>
+    </div>
+    <div class="b">
+        <a href="#" style="text-decoration:none; color: white;">home</a>
+        <a href="#" style="text-decoration: none; color: white;">services</a>
+        <a href="#" style="text-decoration: none; color: white;"> about</a>
+        <a href="#" style="text-decoration: none; color: white;">contact</a>
+    </div>
+    
+    <div class="d">
+        <button class="btn" style="color: black;">Search</button>
+    </div>
+    </nav>
+
+   
+    <video class="bg-video" autoplay muted loop>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</header>
+<main class="body">
+    <div class="acrel" style="background-color: lavenderblush; width: 15%; padding-top: 5%; margin-top: 5%;">
+    <a href="http://127.0.0.1:5501/work2/table.html" target="x"><h1>tables</h1></a>
+    <a href="http://127.0.0.1:5501/work2/form.html" target="x"><h1>forms</h1></a>
+    <a href="http://127.0.0.1:5501/work2/card.html" target="x"><h1>cards</h1></a>
+    <a href="http://127.0.0.1:5501/work2/list.html" target="x"><h1>lists</h1></a>
+    </div>
+    <iframe src="" frameborder="0" name="x" height="1000vh" width="1200vw" style="margin-left: 20%; margin-top: -15%;"></iframe>
+</main>
+
+</body>
+</html>
